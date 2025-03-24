@@ -246,8 +246,11 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonPicture>Посетитель</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<CommonForm>ГлавнаяФорма</CommonForm>
 			<CommonForm>ФормаПодсчетаПосетителей</CommonForm>
+			<Catalog>Подсчеты</Catalog>
+			<Report>ПодсчетПосетителей</Report>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
