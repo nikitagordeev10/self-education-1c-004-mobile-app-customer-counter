@@ -1,0 +1,523 @@
+############################################## 1С ##############################################
+
+# Файлы окружения
+.env
+env.json
+
+# Файлы конфигурации и временные файлы
+ConfigDumpInfo.xml
+lastUploadedCommit.txt
+lastUploadedConfigDumpInfo.xml
+
+# Логи и служебные файлы платформы 1С
+1CHelpIndex
+1Cv8FTxt
+1Cv8JobScheduler
+1Cv8Log
+
+# Каталоги сборки и отчётов
+build/
+out/
+allure-report/
+test-results/
+.scannerwork
+.sonarlint/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Каталоги и файлы внешних инструментов
+oscript_modules/
+tools/vanessa-automation-single.*
+tools/xUnitFor1C-*
+
+# Временные файлы и каталоги конфигурации
+*.cf
+*.cfl
+*.cgr
+*.lgd
+*.CD
+*.1CD
+*.1CL
+
+# Каталоги исходного кода и другие временные каталоги
+src/Config/
+xf_img/
+xf_Tests/
+xf_vanessa-automation-single.*
+sources/
+
+# Исключение временных файлов из корневой директории
+~$*
+*.bak
+*.tmp
+*.lock
+
+# Игнорирование временных файлов в случае работы через Docker
+docker-compose.override.yml
+.dockerignore
+
+# Добавлено для логов работы с GIT
+*.log
+
+############################################## OVERLEAF ##############################################
+
+*.zip
+*.rar
+*.sty
+*.pdf
+!*_compressed.pdf
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+# *.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bbl-SAVE-ERROR
+*.bcf
+*.bcf-SAVE-ERROR
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.rubbercache
+rubber.cache
+
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
+
+## Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# changes
+*.soc
+
+# comment
+*.cut
+
+# cprotect
+*.cpt
+
+# elsarticle (documentclass of Elsevier journals)
+*.spl
+
+# endnotes
+*.ent
+
+# fixme
+*.lox
+
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
+*.sls
+
+# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# *.ist
+
+# gnuplot
+*.gnuplot
+*.table
+
+# gnuplottex
+*-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.glog
+*.gtex
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# hypdoc
+*.hd
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# luatexja-ruby
+*.ltjruby
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# newpax
+*.newpax
+
+# nomencl
+*.nlg
+*.nlo
+*.nls
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile
+*.wrt
+
+# svg
+svg-inkscape/
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# tcolorbox
+*.listing
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# titletoc
+*.ptc
+
+# todonotes
+*.tdo
+
+# vhistory
+*.hst
+*.ver
+
+# easy-todo
+*.lod
+
+# xcolor
+*.xcp
+
+# xmpincl
+*.xmpi
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices and outlines
+*.xyc
+*.xyd
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# LyX
+*.lyx~
+
+# Kile
+*.backup
+
+# gummi
+.*.swp
+
+# KBibTeX
+*~[0-9]*
+
+# TeXnicCenter
+*.tps
+
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+
+# Makeindex log files
+*.lpz
+
+# xwatermark package
+*.xwm
+
+# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
+# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
+# Uncomment the next line to have this generated file ignored.
+#*Notes.bib
+
+
+############################################## vanessa-automation ##############################################
+
+*Log.txt
+*Err.txt
+*.epf
+*/lib/TemplateEpf/Temp/*.txt
+*/distr
+*/tools/allure-report
+*/tools/ServiceBases/v82ServiceBase
+*/tools/ServiceBases/v82ServiceBase82
+*/tools/ServiceBases/v83NoSyncServiceBase
+*/tools/ServiceBases/v83ServiceBase
+*/tools/ServiceBases/v83ServiceBase836
+*/tools/ServiceBases/v83ServiceBase837
+*/tools/ServiceBases/v83ServiceBase838
+*/tools/ServiceBases/v83ServiceBase839
+*/tools/ServiceBases/*.txt
+*/tools/ServiceBases/*.log
+*/tools/allure-report
+*/tools/ServiceBases/allurereport
+*/tasks/*.gem
+*/tests/tests.config
+*/tools/ScreenShots/
+*/tools/ServiceBases/ScreenShots/
+*/tools/Allure/
+*/tools/HTML/
+*/tools/Video/
+*/tools/ScreenShotsTest/
+*/temp
+*/crowdin.yaml
+*/.vscode
+*/tools/Markdown/
+*/tools/VideoTemp/
+*/tools/VideoTools/FrameShow.exe
+*/tools/VideoTools/KeyboardType.exe
+*/tools/VideoTools/MouseMove.exe
+*/tools/VideoTemp1/
+*/tools/jUnit/
+*/tools/ServiceBases/junitreport/
+*/tools/ServiceBases/cucumber/
+*/tools/Cucumber/
+*/tools/ServiceBases/v83ServiceBase*/
+*/tools/CompareFiles/
+*/epfversion
+*/fileversion
+*/tools/Sikuli/SikuliServer.sikuli/
+*/tools/Sikuli/SikuliXServer.sikuli/
+*/tools/VideoTools/Arrow.exe
+*/tools/VideoTools/MouseClickDLL.dll
+*/tools/VideoTools/MouseClickEvent.exe
+*/tools/SPPR/
+
+*/.scannerwork/
+*/tools/VideoTools/Rectangle.exe
+*/.vs
+
+*.bsl.orig
+*/VanessaAutomation/Templates/WindowCaptureComponent/Ext/Template.bin
+*/VanessaAutomation/Templates/VanessaEditor/Ext/Template.bin
+*/VanessaAutomation/Templates/VanessaExtCentOS/Ext/Template.bin
+*/VanessaAutomation/Templates/БиблиотекаJavaScript/Ext/Template.bin
+*/VanessaAutomation/Templates/КлючевыеСловаGherkin/Ext/Template.bin
+*/VanessaAutomationsingle/Templates/WindowCaptureComponent/Ext/Template.bin
+*/VanessaAutomationsingle/Templates/VanessaEditor/Ext/Template.bin
+*/VanessaAutomationsingle/Templates/VanessaExtCentOS/Ext/Template.bin
+*/VanessaAutomationsingle/Templates/БиблиотекаJavaScript/Ext/Template.bin
+*/VanessaAutomationsingle/Templates/КлючевыеСловаGherkin/Ext/Template.bin
+
+*/HelpTTS/
+*/lib/CF/83/ConfigDumpInfo.xml
+*/VAEditorCacheFiles/
+
+*Log.txt
+*Err.txt
+*.epf
+lib/TemplateEpf/Temp/*.txt
+distr
+tools/allure-report
+tools/ServiceBases/v82ServiceBase
+tools/ServiceBases/v82ServiceBase82
+tools/ServiceBases/v83NoSyncServiceBase
+tools/ServiceBases/v83ServiceBase
+tools/ServiceBases/v83ServiceBase836
+tools/ServiceBases/v83ServiceBase837
+tools/ServiceBases/v83ServiceBase838
+tools/ServiceBases/v83ServiceBase839
+tools/ServiceBases/*.txt
+tools/ServiceBases/*.log
+tools/allure-report
+tools/ServiceBases/allurereport
+tasks/*.gem
+tests/tests.config
+tools/ScreenShots/
+tools/ServiceBases/ScreenShots/
+tools/Allure/
+tools/HTML/
+tools/Video/
+tools/ScreenShotsTest/
+temp
+crowdin.yaml
+.vscode
+tools/Markdown/
+tools/VideoTemp/
+tools/VideoTools/FrameShow.exe
+tools/VideoTools/KeyboardType.exe
+tools/VideoTools/MouseMove.exe
+tools/VideoTemp1/
+tools/jUnit/
+tools/ServiceBases/junitreport/
+tools/ServiceBases/cucumber/
+tools/Cucumber/
+tools/ServiceBases/v83ServiceBase*/
+tools/CompareFiles/
+epfversion
+fileversion
+tools/Sikuli/SikuliServer.sikuli/
+tools/Sikuli/SikuliXServer.sikuli/
+tools/VideoTools/Arrow.exe
+tools/VideoTools/MouseClickDLL.dll
+tools/VideoTools/MouseClickEvent.exe
+tools/SPPR/
+
+.scannerwork/
+tools/VideoTools/Rectangle.exe
+.vs
+
+*.bsl.orig
+VanessaAutomation/Templates/WindowCaptureComponent/Ext/Template.bin
+VanessaAutomation/Templates/VanessaEditor/Ext/Template.bin
+VanessaAutomation/Templates/VanessaExtCentOS/Ext/Template.bin
+VanessaAutomation/Templates/БиблиотекаJavaScript/Ext/Template.bin
+VanessaAutomation/Templates/КлючевыеСловаGherkin/Ext/Template.bin
+VanessaAutomationsingle/Templates/WindowCaptureComponent/Ext/Template.bin
+VanessaAutomationsingle/Templates/VanessaEditor/Ext/Template.bin
+VanessaAutomationsingle/Templates/VanessaExtCentOS/Ext/Template.bin
+VanessaAutomationsingle/Templates/БиблиотекаJavaScript/Ext/Template.bin
+VanessaAutomationsingle/Templates/КлючевыеСловаGherkin/Ext/Template.bin
+
+HelpTTS/
+lib/CF/83/ConfigDumpInfo.xml
+VAEditorCacheFiles/
+
