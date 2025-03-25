@@ -5,67 +5,131 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Приветствие" id="6">
-			<DataPath>Приветствие</DataPath>
-			<TitleLocation>None</TitleLocation>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
-			<ContextMenu name="ПриветствиеКонтекстноеМеню" id="7"/>
-			<ExtendedTooltip name="ПриветствиеРасширеннаяПодсказка" id="8"/>
-		</InputField>
-		<Button name="УказатьРевизора" id="9">
-			<Type>UsualButton</Type>
-			<Height>2</Height>
+		<UsualGroup name="Группа3" id="21">
 			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.УказатьРевизора</CommandName>
-			<TextColor>#000000</TextColor>
-			<BackColor>#F4D75E</BackColor>
-			<BorderColor>#F4D75E</BorderColor>
-			<Font ref="style:NormalTextFont" height="18" kind="StyleItem" scale="100"/>
-			<ExtendedTooltip name="УказатьРевизораРасширеннаяПодсказка" id="10"/>
-		</Button>
-		<PictureDecoration name="Декорация" id="1">
-			<Width>35</Width>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<Height>15</Height>
-			<AutoMaxHeight>false</AutoMaxHeight>
-			<HorizontalStretch>false</HorizontalStretch>
 			<VerticalStretch>false</VerticalStretch>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Декорация</v8:content>
-				</v8:item>
-			</Title>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<GroupVerticalAlign>Center</GroupVerticalAlign>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<LabelDecoration name="Название" id="18">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мобильное приложение «Учёт брака»</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<ContextMenu name="НазваниеКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="НазваниеРасширеннаяПодсказка" id="20"/>
+				</LabelDecoration>
+				<PictureDecoration name="Декорация" id="1">
+					<Width>15</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>6</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Picture>
+						<xr:Ref>CommonPicture.Контролер200</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ДекорацияРасширеннаяПодсказка" id="3"/>
+				</PictureDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="11">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="12"/>
+			<ChildItems>
+				<InputField name="ИмяКонтролера" id="6">
+					<DataPath>ИмяКонтролера</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<Font ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+					<ContextMenu name="ИмяКонтролераКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ИмяКонтролераРасширеннаяПодсказка" id="8"/>
+				</InputField>
+				<Button name="УказатьКонтролера" id="9">
+					<Type>UsualButton</Type>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.УказатьКонтролера</CommandName>
+					<TextColor>#000000</TextColor>
+					<BackColor>#DCCFB8</BackColor>
+					<BorderColor>#DCCFB8</BorderColor>
+					<Font ref="style:NormalTextFont" height="11" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="УказатьКонтролераРасширеннаяПодсказка" id="10"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="16">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="13">
+					<Font ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Производственный брак — продукция, передача которой потребителю не допускается из-за наличия дефектов, не удовлетворяющая установленным требованиям</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="15"/>
+				</LabelDecoration>
+				<Button name="СчитатьБрак" id="4">
+					<Type>UsualButton</Type>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.СчитатьБрак</CommandName>
+					<TextColor>#000000</TextColor>
+					<BackColor>#DCCFB8</BackColor>
+					<BorderColor>#DCCFB8</BorderColor>
+					<Font ref="style:NormalTextFont" height="11" kind="StyleItem" scale="100"/>
+					<ExtendedTooltip name="СчитатьБракРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<PictureDecoration name="Декорация2" id="23">
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 			<Picture>
-				<xr:Ref>CommonPicture.Посетитель</xr:Ref>
+				<xr:Ref>CommonPicture.Логотип</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<ContextMenu name="ДекорацияКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ДекорацияРасширеннаяПодсказка" id="3"/>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="25"/>
 		</PictureDecoration>
-		<Button name="СчитатьПосетителей" id="4">
-			<Type>UsualButton</Type>
-			<Height>2</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.СчитатьПосетителей</CommandName>
-			<TextColor>#000000</TextColor>
-			<BackColor>#F4D75E</BackColor>
-			<BorderColor>#F4D75E</BorderColor>
-			<Font ref="style:NormalTextFont" height="18" kind="StyleItem" scale="100"/>
-			<ExtendedTooltip name="СчитатьПосетителейРасширеннаяПодсказка" id="5"/>
-		</Button>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Приветствие" id="1">
+		<Attribute name="ИмяКонтролера" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Приветствие</v8:content>
+					<v8:content>Имя контролера</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -78,35 +142,35 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="СчитатьПосетителей" id="1">
+		<Command name="СчитатьБрак" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Считать посетителей</v8:content>
+					<v8:content>Считать брак</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Считать посетителей</v8:content>
+					<v8:content>Считать брак</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>СчитатьПосетителей</Action>
+			<Action>СчитатьБрак</Action>
 		</Command>
-		<Command name="УказатьРевизора" id="2">
+		<Command name="УказатьКонтролера" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Указать ревизора</v8:content>
+					<v8:content>Указать контролера</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Указать ревизора</v8:content>
+					<v8:content>Указать контролера</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>УказатьРевизора</Action>
+			<Action>УказатьКонтролера</Action>
 		</Command>
 	</Commands>
 </Form>

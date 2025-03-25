@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="22">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<LabelField name="КоличествоБракованнойПродукции" id="17">
+					<DataPath>КоличествоБракованнойПродукции</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество бракованной продукции</v8:content>
+						</v8:item>
+					</Title>
+					<TextColor>#000000</TextColor>
+					<Font ref="style:NormalTextFont" height="36" kind="StyleItem" scale="100"/>
+					<ContextMenu name="КоличествоБракованнойПродукцииКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="КоличествоБракованнойПродукцииРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<Button name="Добавить1" id="1">
+					<Type>UsualButton</Type>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.Добавить1</CommandName>
+					<TextColor>#000000</TextColor>
+					<BackColor>#DCCFB8</BackColor>
+					<BorderColor>#DCCFB8</BorderColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>+1</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Добавить1РасширеннаяПодсказка" id="2"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="СохранитьПодсчет" id="20">
+			<Type>UsualButton</Type>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.СохранитьПодсчет</CommandName>
+			<TextColor>#000000</TextColor>
+			<BackColor>#DCCFB8</BackColor>
+			<BorderColor>#DCCFB8</BorderColor>
+			<Font ref="style:NormalTextFont" height="11" kind="StyleItem" scale="100"/>
+			<ExtendedTooltip name="СохранитьПодсчетРасширеннаяПодсказка" id="21"/>
+		</Button>
+		<PictureDecoration name="Декорация1" id="24">
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.Логотип</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="26"/>
+		</PictureDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="КоличествоБракованнойПродукции" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество бракованной продукции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Добавить1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Добавить1</Action>
+		</Command>
+		<Command name="СохранитьПодсчет" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить подсчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить подсчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьПодсчет</Action>
+		</Command>
+	</Commands>
+</Form>

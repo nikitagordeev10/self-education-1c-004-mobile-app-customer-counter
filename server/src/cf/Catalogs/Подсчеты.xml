@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="8cde6a49-e750-48b3-8780-6f22fbcd22fe">
+	<Catalog uuid="f0005d98-cc94-47f2-a182-86c227edf110">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Подсчеты" category="Object">
-				<xr:TypeId>388930e8-a7c2-4c75-9577-8a37fd7b9f72</xr:TypeId>
-				<xr:ValueId>3525d214-c6b3-4196-9448-095cea79511f</xr:ValueId>
+				<xr:TypeId>c162e4a9-4e59-42cf-9010-df6f6ee4cde2</xr:TypeId>
+				<xr:ValueId>0ef7371f-0018-4512-b281-e8d49020bd3e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Подсчеты" category="Ref">
-				<xr:TypeId>7b05fd10-1f0a-4ac8-afbd-05bb5e8656cb</xr:TypeId>
-				<xr:ValueId>b633eb81-84ab-4745-8377-ee2796c8fc78</xr:ValueId>
+				<xr:TypeId>a7361710-323b-4ed0-85d9-8caa52921182</xr:TypeId>
+				<xr:ValueId>c6d3bda2-1f74-4394-8897-4682b9bad981</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Подсчеты" category="Selection">
-				<xr:TypeId>7bfb5134-08cd-4bad-a171-8aa2d72d9f0a</xr:TypeId>
-				<xr:ValueId>1d56b45b-736d-4459-b029-3c09c93fd6db</xr:ValueId>
+				<xr:TypeId>8693aeef-1624-47ff-bc0a-ff503aaf519a</xr:TypeId>
+				<xr:ValueId>5477e56c-6578-4e3e-8c73-46b52deaa563</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Подсчеты" category="List">
-				<xr:TypeId>3e8cb458-2408-4708-b594-d2fb484c3395</xr:TypeId>
-				<xr:ValueId>c256d802-6ad6-4794-995b-e992f49ca330</xr:ValueId>
+				<xr:TypeId>529752c3-6262-4ebd-8701-5e151abf18bd</xr:TypeId>
+				<xr:ValueId>9108cf75-af0c-4fa3-bbb8-6e113e6d4a73</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Подсчеты" category="Manager">
-				<xr:TypeId>83114bee-6556-455f-b4d7-be521f9934b1</xr:TypeId>
-				<xr:ValueId>1d4a7630-4dc5-48af-a8e7-feba635803f7</xr:ValueId>
+				<xr:TypeId>3eacd2f9-7d05-4e9a-b573-1e5c91d58530</xr:TypeId>
+				<xr:ValueId>9d539699-b37b-4482-b21c-d4197d9bd783</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="31208e72-8129-40ad-860a-d7db59a0eed5">
+			<Attribute uuid="5278aa7c-64db-44de-8b4a-75aa28dc5dd8">
 				<Properties>
 					<Name>КонтролерКачества</Name>
 					<Synonym>
@@ -131,7 +131,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="423ef153-cf09-4d8c-b63c-89dae5036275">
+			<Attribute uuid="f3c1347a-56df-4c39-9bf6-caf8e44a0d8f">
 				<Properties>
 					<Name>КоличествоБракованнойПродукции</Name>
 					<Synonym>

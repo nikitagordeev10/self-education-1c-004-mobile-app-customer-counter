@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Configuration uuid="c1970ffb-4564-45fb-858e-6be2c835f741">
+	<Configuration uuid="5569efc7-a704-483d-92e5-7776773cd166">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>ed05b6e7-0efa-4601-89ad-8c6b5e53f2c5</xr:ObjectId>
+				<xr:ObjectId>82c33455-38d1-4473-9733-05fc750c6be2</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>f77416f1-92ea-4f87-b2f4-c71ae366aaef</xr:ObjectId>
+				<xr:ObjectId>4ba7ea48-5fba-4a47-981f-8a8cc8145dbf</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>f1b8b10b-fbe5-42ca-8a0a-f2b2c89e65ec</xr:ObjectId>
+				<xr:ObjectId>2f72c03a-0a91-4d47-b6d7-5d4194e2e9a9</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>3f3bec22-42a9-4d36-a70d-b57c1fbe9cf9</xr:ObjectId>
+				<xr:ObjectId>fe9e13fb-5f49-474b-a0d5-be6bb99ef00a</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>80798edb-b8fc-4dd1-8711-0d7ccf119c1a</xr:ObjectId>
+				<xr:ObjectId>b8de57ad-3c5e-44dd-9282-51d031602bc9</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>10d8177c-b827-46de-8cf6-43461ada64b8</xr:ObjectId>
+				<xr:ObjectId>b9365f4c-abd7-42af-b465-6732f2c9bcf9</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>bff54692-d07e-4dd3-bef9-4d7229692100</xr:ObjectId>
+				<xr:ObjectId>9afb4c45-0943-4b5f-87cf-f8fc4eacfec7</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>УчетБрака</Name>
+			<Name>БазаСервера</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Учет брака</v8:content>
+					<v8:content>База сервера</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -251,12 +251,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Style>СветлоКоричневыйСтиль</Style>
-			<CommonPicture>КонтролерКачества</CommonPicture>
-			<CommonPicture>Контролер200</CommonPicture>
-			<CommonPicture>Логотип</CommonPicture>
-			<SessionParameter>ТекущийПользователь</SessionParameter>
-			<CommonForm>ГлавнаяФорма</CommonForm>
-			<CommonForm>ФормаПодсчетаБрака</CommonForm>
+			<HTTPService>Exchange</HTTPService>
 			<Catalog>Подсчеты</Catalog>
 			<Report>КоличествоБрака</Report>
 		</ChildObjects>
